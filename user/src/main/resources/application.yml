@@ -1,0 +1,14 @@
+server:
+  port: 7904
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+  application:
+    name: service-user
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
